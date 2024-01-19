@@ -17,7 +17,7 @@ const userCard = (props) => {
                        link_src ?(
                             <Link href={link_src} className='btn btn-danger'>Hier</Link>
                        ):(
-                            <span></span>
+                            <span>KEIN LINK GESETZT</span>   
                        )
                     }
                     

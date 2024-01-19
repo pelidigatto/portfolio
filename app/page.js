@@ -40,29 +40,7 @@ export default function Home() {
                     <div className='col-12 col-sm-4'>
                         <UserCard headline={'Meine Projekte'} description={'Eine Übersicht einiger Projekte, die ich umgesetzt habe.'} link="/projekte" />
                     </div>
-                </div> 
-                <div className='row w-100 justify-content-center mb-3'>
-                    <div className='col-12 col-sm-8'>
-                        <div className='codeArea'> 
-                            <p>
-                                🚀 Herzlich willkommen auf meinem Portfolio! Ich bin Florian Thönelt, ein leidenschaftlicher Webentwickler mit einem Auge für Ästhetik und einem starken technischen Hintergrund. 
-                                Mit meiner Erfahrung und Kreativität gestalte ich digitale Lösungen, die nicht nur funktional sind, sondern auch ein beeindruckendes Benutzererlebnis bieten.
-                            </p>
-                            <p>
-                                💻 Meine Expertise umfasst Frontend- und Backend-Entwicklung, wobei ich modernste Technologien wie HTML5, CSS3, JavaScript und Frameworks wie React und Node.js einsetze. 
-                                Durch meine Liebe zum Detail und meinem Streben nach Perfektion strebe ich danach, nicht nur Code zu schreiben, sondern echte Erlebnisse zu schaffen.
-                            </p>
-                            <p>
-                                🎨 In meinen Projekten lege ich großen Wert auf responsives Design, um sicherzustellen, dass die Webseiten auf allen Geräten optimal funktionieren. 
-                                Von der Konzeption bis zur Umsetzung bin ich stets bestrebt, die individuellen Bedürfnisse meiner Kunden zu verstehen und maßgeschneiderte Lösungen zu entwickeln.
-                            </p>
-                            <p>
-                                🤝 Ich bin immer offen für neue Herausforderungen und freue mich darauf, innovative Ideen in die Realität umzusetzen. 
-                                Stöbere durch meine Projekte und entdecke, wie ich mit meinem technischen Know-how und meiner kreativen Herangehensweise dazu beitrage, digitale Visionen zu verwirklichen.
-                            </p>
-                        </div>
-                    </div>
-                </div>             
+                </div>            
             </div>
     )
 }

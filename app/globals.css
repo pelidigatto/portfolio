@@ -104,3 +104,57 @@ body{
     flex-wrap: wrap;
     width: 100%;
 }
+
+.skillbarContent{
+    margin: 2em 0;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.skillbar{
+    width: 80%;
+    height: 1rem;
+    border: 1px solid var(--text-color);
+    border-radius: 5px;
+}
+
+.skillbarLabel{
+    width: 20%;
+}
+
+.SkillBarinner{
+    height: 100%;
+    width: 60%;
+    background-color: #4bb74a;
+    position: relative; 
+    border-radius: 5px;
+}
+
+.SkillInidikator{
+    position: absolute;
+    right: 0;
+    top: -1.5rem;
+    background-color: var(--background-color);
+    border: 1px solid var(--text-color);
+    padding: 1px 5px;
+    border-radius: 5px;
+    font-size: 11px;
+}
+
+.SkillInidikator::after{
+    content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: var(--text-color) transparent transparent transparent;
+}
+
+
+.skillIcon{
+    font-size: 30px;
+}
+
