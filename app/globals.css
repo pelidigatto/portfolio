@@ -158,3 +158,9 @@ body{
     font-size: 30px;
 }
 
+
+.projectCardImage{
+    height:200px;
+    overflow: hidden;
+}
+

@@ -1,6 +1,5 @@
 import SkillBar from "../components/SkillBar"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMoon } from '@fortawesome/free-solid-svg-icons'
 import { faNodeJs, faReact,faLaravel, faBootstrap } from '@fortawesome/free-brands-svg-icons'
 
 export default function About(){
