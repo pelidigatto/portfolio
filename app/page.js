@@ -45,8 +45,8 @@ export default function Home() {
                         </div>
                     </div>            
                 </div>
-                    <About />
-                    <Projekte />
+                    {/* <About />
+                    <Projekte /> */}
             </div>
 
     )
