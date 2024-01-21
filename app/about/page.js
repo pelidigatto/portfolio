@@ -1,15 +1,15 @@
 import SkillBar from "../components/SkillBar"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faNodeJs, faReact,faLaravel, faBootstrap } from '@fortawesome/free-brands-svg-icons'
-
+import { faArrowDown } from '@fortawesome/free-solid-svg-icons' 
 export default function About(){
     return(
-        <div className="homeSection">
+        <div className="homeSection" id="about">
             <div className="row w-100 my-5">
-                <div className="col-12 text-center">
+                <div className="col-12 text-center p-0">
                     <h1>Über mich</h1>
                 </div>
-                <div className="col-12 col-sm-5">
+                <div className="col-12 col-sm-5 order-1 order-md-0 my-3">
                         <div className='codeArea'> 
                             <p>
                                 🚀 Herzlich willkommen auf meinem Portfolio! Ich bin Florian Thönelt, ein leidenschaftlicher Webentwickler mit einem Auge für Ästhetik und einem starken technischen Hintergrund. 
@@ -29,7 +29,7 @@ export default function About(){
                             </p>
                         </div>
                 </div>
-                <div className="col-12 col-sm-7">
+                <div className="col-12 col-sm-7 order-0 order-md-1  my-3">
                     <div className='codeArea'>
                         <div className="row">
                             <div className="col-12">
@@ -53,6 +53,9 @@ export default function About(){
                         </div>                  
                     </div>
                 </div>
+            </div>
+            <div className='row w-100 justify-content-center my-3'>
+                <a href='#projects' className='ArrowStart'><FontAwesomeIcon icon={faArrowDown} /></a>   
             </div>
         </div>
         

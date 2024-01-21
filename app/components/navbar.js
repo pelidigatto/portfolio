@@ -14,10 +14,10 @@ export default function Navbar(){
                             <Link href="/" className="nav-link">Home</Link>
                         </li>
                         <li className="nav-item">
-                            <Link href="/about" className="nav-link">Über mich</Link>
+                            <Link href="#about" className="nav-link">Über mich</Link>
                         </li>
                         <li className="nav-item">
-                            <Link href="/projekte" className="nav-link">Projekte</Link>
+                            <Link href="#projects" className="nav-link">Projekte</Link>
                         </li>
                     </ul>
                     <ThemeSwitcher />

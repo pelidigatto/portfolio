@@ -161,12 +161,17 @@ body{
 
 
 .projectCardImage{
-    height:200px;
+    height:10rem;
     overflow: hidden;
 }
 
 
 .ArrowStart{
     font-size: 30px;
+    animation: bounce 4s cubic-bezier(.95,.05,.795,.035) infinite alternate;
+    width: auto;
+    color: var(--text-color);
     
 }
+
+

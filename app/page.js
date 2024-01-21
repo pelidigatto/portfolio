@@ -5,24 +5,28 @@ import Pic from './components/pic'
 import About from './about/page';
 import Projekte from './projekte/page';
 
+
+
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
 
 import 'animate.css';
 
+
 export default function Home() {
     
     return (
             <div>
-                <div className='homeSection'>
-                    <div className='row w-100 my-5'>
-                        <div className='col-12 text-center'>
+                <div className='homeSection' id="home">
+                    <div className='row w-100 my-1 my-lg-5'>
+                        <div className='p-0 col-12 text-center'>
                             <h1>Moin, ich bin Florian!</h1>
                         </div>
-                        <div className='col-12 col-sm-4 d-flex justify-content-center align-items-center my-4'>
+                        <div className='p-0 col-12 col-lg-4 d-flex justify-content-center align-items-center my-4'>
                             <Pic width={1000} height={1000} />
                         </div>
-                        <div className='col-12 col-sm-8 d-flex justify-content-center align-items-center p-0'>
+                        <div className='col-12 col-lg-8 d-flex justify-content-center align-items-center p-0'>
                             <div className='row w-100 text-center'>
                                 <div className='col-12'>
                                     <div className='codeArea p-4 codeFont'>
@@ -42,8 +46,8 @@ export default function Home() {
                         </div>
                     </div>
                     
-                    <div className='row w-100 justify-content-center my-3'><FontAwesomeIcon icon={faArrowDown} className='ArrowStart'/>
-                        <div class="animate__animated animate__bounce"></div>
+                    <div className='row w-100 justify-content-center my-3'>
+                        <a href='#about' className='ArrowStart'><FontAwesomeIcon icon={faArrowDown} /></a>   
                     </div>
                     {/* <div className='row w-100 justify-content-center my-3'>
                         <div className='col-12 col-sm-4'>

@@ -9,6 +9,12 @@ import Footer from './components/footer'
 import { useEffect } from 'react';
 import CookieConsent from "react-cookie-consent";
 
+// The following import prevents a Font Awesome icon server-side rendering bug,
+// where the icons flash from a very large icon down to a properly sized one:
+import '@fortawesome/fontawesome-svg-core/styles.css';
+// Prevent fontawesome from adding its CSS since we did it manually above:
+import { config } from '@fortawesome/fontawesome-svg-core';
+config.autoAddCss = false; /* eslint-disable import/first */
 
  function RootLayout({ children }) {
   useEffect(() => {
@@ -19,7 +25,7 @@ import CookieConsent from "react-cookie-consent";
       <body>
           <Providers>
             <Navbar/>
-            <div className='container w-100'>
+            <div className='container p-0 w-100'>
               {children}
               <Footer />  
             </div>      
