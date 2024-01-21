@@ -5,6 +5,11 @@ import Pic from './components/pic'
 import About from './about/page';
 import Projekte from './projekte/page';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
+
+import 'animate.css';
+
 export default function Home() {
     
     return (
@@ -36,17 +41,21 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className='row w-100 justify-content-center my-3'>
+                    
+                    <div className='row w-100 justify-content-center my-3'><FontAwesomeIcon icon={faArrowDown} className='ArrowStart'/>
+                        <div class="animate__animated animate__bounce"></div>
+                    </div>
+                    {/* <div className='row w-100 justify-content-center my-3'>
                         <div className='col-12 col-sm-4'>
                             <UserCard headline={'Mehr über mich'} description={'Mehr über mich, meinen Werdegang und mein Skillset.'} link="/about" />
                         </div>
                         <div className='col-12 col-sm-4'>
                             <UserCard headline={'Meine Projekte'} description={'Eine Übersicht einiger Projekte, die ich umgesetzt habe.'} link="/projekte" />
                         </div>
-                    </div>            
+                    </div>    */}         
                 </div>
-                    {/* <About />
-                    <Projekte /> */}
+                    <About />
+                    <Projekte />
             </div>
 
     )
