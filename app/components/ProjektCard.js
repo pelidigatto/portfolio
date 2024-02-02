@@ -23,7 +23,7 @@ const ProjektCard = (props) => {
                     />
                 </div>
                 <div className="col-12 text-center mt-3">
-                    <h2>{projectName}</h2>
+                    <h3 className='fw-lighter'>{projectName}</h3>
                     {
                         projectToolsList.map((project) =>
                             <span className="badge bg-secondary mx-2">{project}</span>

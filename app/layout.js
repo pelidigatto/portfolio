@@ -9,6 +9,9 @@ import Footer from './components/footer'
 import { useEffect } from 'react';
 import CookieConsent from "react-cookie-consent";
 
+ 
+
+
 // The following import prevents a Font Awesome icon server-side rendering bug,
 // where the icons flash from a very large icon down to a properly sized one:
 import '@fortawesome/fontawesome-svg-core/styles.css';
@@ -16,12 +19,17 @@ import '@fortawesome/fontawesome-svg-core/styles.css';
 import { config } from '@fortawesome/fontawesome-svg-core';
 config.autoAddCss = false; /* eslint-disable import/first */
 
+
  function RootLayout({ children }) {
+
+
+
   useEffect(() => {
     import("bootstrap/dist/js/bootstrap");
   }, []);
   return (
     <html lang="de">
+      <title>Florian Thönelt</title>
       <body>
           <Providers>
             <Navbar/>

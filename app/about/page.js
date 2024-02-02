@@ -7,7 +7,7 @@ export default function About(){
         <div className="homeSection" id="about">
             <div className="row w-100 my-5">
                 <div className="col-12 text-center p-0">
-                    <h1>Über mich</h1>
+                    <h1 className="fw-light">Über mich</h1>
                 </div>
                 <div className="col-12 col-sm-5 order-1 order-md-0 my-3">
                         <div className='codeArea'> 
@@ -33,7 +33,7 @@ export default function About(){
                     <div className='codeArea'>
                         <div className="row">
                             <div className="col-12">
-                                <h2>Skills</h2>
+                                <h2 className="fw-lighter">Skills</h2>
                             </div> 
                             <div className="col-12">
                                 <SkillBar name="HTML/CSS" percent="80"/>
@@ -46,7 +46,7 @@ export default function About(){
                                 <SkillBar name="Wordpress" percent="80"/>
                                 <SkillBar name="Linux" percent="60"/>                               
                             </div>
-                            <h3 className="fs-4">Weitere Skills und Frameworks</h3>
+                            <h3 className="fs-4 fw-lighter">Weitere Skills und Frameworks</h3>
                             <div className="col-3 d-flex flex-column  justify-content-center my-3 skillIcon">
                                 <FontAwesomeIcon icon={faNodeJs} />
                                 <label className="fs-6 w-lighter text-center w-100">Node.js</label>
