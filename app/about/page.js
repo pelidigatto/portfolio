@@ -6,7 +6,7 @@ export default function About(){
     return(
         <div className="homeSection" id="about">
             <div className="row w-100 my-5">
-                <div className="col-12 text-center p-0">
+                <div className="col-12 text-center p-0 mt-5">
                     <h1 className="fw-light">Über mich</h1>
                 </div>
                 <div className="col-12 col-sm-5 order-1 order-md-0 my-3">
