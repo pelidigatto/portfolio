@@ -5,7 +5,7 @@ export default function Projekte(){
         <div className="homeSection" id="projects">
             <div className="row w-100 my-5">
                 <div className="col-12 text-center">
-                    <h1 className="fw-light">Projekte</h1>
+                    <h1 className="fw-light mt-5">Projekte</h1>
                     
                 </div>
                 <div className="col-12 col-sm-6 my-3">
