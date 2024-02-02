@@ -37,10 +37,9 @@ body{
 
 
 .themeSwitcher{
-    color: var(--text-color) !important;
-    border: 1px solid var(--text-color) !important;
-    border-radius: 10%;
-    padding: 3px 5px;
+    border: 1px solid var(--text-color)!important;
+    border-radius: 20%;
+    padding: 5px 10px;
 }
 
 
