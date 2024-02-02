@@ -16,8 +16,8 @@ export default function Home() {
     
     return (
             <div>
-                <div className='homeSection' id="home">
-                    <div className='row w-100 my-1 my-lg-5'>
+                <div className='homeSection mt-5' id="home">
+                    <div className='row w-100 mt-5'>
                         <div className='p-0 col-12 text-center'>
                             <h1 className='fw-light'>Moin, ich bin Florian 👋!</h1>
                         </div>
