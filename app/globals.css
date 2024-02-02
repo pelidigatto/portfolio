@@ -111,17 +111,20 @@ body{
     display: flex;
     width: 100%;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .skillbar{
-    width: 80%;
+    width: 100%;
     height: 1rem;
-    border: 1px solid var(--text-color);
+    border: 1px solid #adb5bd;
     border-radius: 5px;
+    margin: .5rem 0;
+    
 }
 
 .skillbarLabel{
-    width: 20%;
+    width: 100%;
 }
 
 .SkillBarinner{
@@ -137,7 +140,7 @@ body{
     right: 0;
     top: -1.5rem;
     background-color: var(--background-color);
-    border: 1px solid var(--text-color);
+    border: 1px solid #adb5bd;
     padding: 1px 5px;
     border-radius: 5px;
     font-size: 11px;
