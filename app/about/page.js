@@ -4,7 +4,7 @@ import { faNodeJs, faReact,faLaravel, faBootstrap } from '@fortawesome/free-bran
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons' 
 export default function About(){
     return(
-        <div className="homeSection" id="about">
+        <div className="homeSection mt-5" id="about">
             <div className="row w-100 my-5">
                 <div className="col-12 text-center p-0">
                     <h1 className="fw-light">Über mich</h1>
