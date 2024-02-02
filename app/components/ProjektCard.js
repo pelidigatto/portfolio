@@ -25,8 +25,8 @@ const ProjektCard = (props) => {
                 <div className="col-12 text-center mt-3">
                     <h2>{projectName}</h2>
                     {
-                        projectToolsList.map((number) =>
-                            <span class="badge bg-secondary mx-2">{number}</span>
+                        projectToolsList.map((project) =>
+                            <span className="badge bg-secondary mx-2">{project}</span>
                         )
                     }
                 </div>

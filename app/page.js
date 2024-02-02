@@ -21,7 +21,7 @@ export default function Home() {
                 <div className='homeSection' id="home">
                     <div className='row w-100 my-1 my-lg-5'>
                         <div className='p-0 col-12 text-center'>
-                            <h1>Moin, ich bin Florian!</h1>
+                            <h1 className=''>Moin, ich bin Florian!</h1>
                         </div>
                         <div className='p-0 col-12 col-lg-4 d-flex justify-content-center align-items-center my-4'>
                             <Pic width={1000} height={1000} />
@@ -44,19 +44,10 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    
+                    </div>                    
                     <div className='row w-100 justify-content-center my-3'>
                         <a href='#about' className='ArrowStart'><FontAwesomeIcon icon={faArrowDown} /></a>   
-                    </div>
-                    {/* <div className='row w-100 justify-content-center my-3'>
-                        <div className='col-12 col-sm-4'>
-                            <UserCard headline={'Mehr über mich'} description={'Mehr über mich, meinen Werdegang und mein Skillset.'} link="/about" />
-                        </div>
-                        <div className='col-12 col-sm-4'>
-                            <UserCard headline={'Meine Projekte'} description={'Eine Übersicht einiger Projekte, die ich umgesetzt habe.'} link="/projekte" />
-                        </div>
-                    </div>    */}         
+                    </div>       
                 </div>
                     <About />
                     <Projekte />

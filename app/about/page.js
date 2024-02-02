@@ -37,19 +37,32 @@ export default function About(){
                             </div> 
                             <div className="col-12">
                                 <SkillBar name="HTML/CSS" percent="80"/>
-                                <SkillBar name="JavaScript" percent="70"/>
-                                <SkillBar name="PHP" percent="85"/>
-                                <SkillBar name="ColdFuison" percent="75"/>
-                                <SkillBar name="MySQL" percent="80"/>
+                                <SkillBar name="JavaScript" percent="75"/>
+                                <SkillBar name="GIT" percent="60"/>
+                                <SkillBar name="PHP" percent="90"/>
+                                <SkillBar name="ColdFuison" percent="85"/>
+                                <SkillBar name="MySQL" percent="75"/>
                                 <SkillBar name="SEO" percent="85"/>
-                                <SkillBar name="Wordpress" percent="50"/>
-                                <SkillBar name="Linux" percent="60"/>
-                                <SkillBar name="GIT" percent="50"/>
+                                <SkillBar name="Wordpress" percent="80"/>
+                                <SkillBar name="Linux" percent="60"/>                               
                             </div>
-                            <div className="col-3 d-flex justify-content-center my-3 skillIcon"><FontAwesomeIcon icon={faNodeJs} /></div>
-                            <div className="col-3 d-flex justify-content-center my-3 skillIcon" ><FontAwesomeIcon icon={faReact} /></div>
-                            <div className="col-3 d-flex justify-content-center my-3 skillIcon"><FontAwesomeIcon icon={faLaravel} /></div>
-                            <div className="col-3 d-flex justify-content-center my-3 skillIcon"><FontAwesomeIcon icon={faBootstrap} /></div>
+                            <h3 className="fs-4">Weitere Skills und Frameworks</h3>
+                            <div className="col-3 d-flex flex-column  justify-content-center my-3 skillIcon">
+                                <FontAwesomeIcon icon={faNodeJs} />
+                                <label className="fs-6 w-lighter text-center w-100">Node.js</label>
+                            </div>
+                            <div className="col-3 d-flex flex-column  justify-content-center my-3 skillIcon">
+                                <FontAwesomeIcon icon={faReact} />
+                                <label className="fs-6 w-lighter text-center w-100">React</label>
+                            </div>
+                            <div className="col-3 d-flex flex-column  justify-content-center my-3 skillIcon">
+                                <FontAwesomeIcon icon={faLaravel} />
+                                <label className="fs-6 w-lighter text-center w-100">Laravel</label>
+                            </div>
+                            <div className="col-3 d-flex flex-column  justify-content-center my-3 skillIcon">
+                                <FontAwesomeIcon icon={faBootstrap} />
+                                <label className="fs-6 w-lighter text-center w-100">Bootstrap</label>
+                            </div>
                         </div>                  
                     </div>
                 </div>
