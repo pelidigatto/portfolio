@@ -36,15 +36,14 @@ export default function About(){
                                 <h2 className="fw-lighter">Skills</h2>
                             </div> 
                             <div className="col-12">
-                                <SkillBar name="HTML/CSS" percent="80"/>
-                                <SkillBar name="JavaScript" percent="75"/>
+                                <SkillBar name="HTML/CSS" percent="95"/>
+                                <SkillBar name="JavaScript" percent="85"/>
                                 <SkillBar name="GIT" percent="60"/>
                                 <SkillBar name="PHP" percent="90"/>
                                 <SkillBar name="ColdFuison" percent="85"/>
                                 <SkillBar name="MySQL" percent="75"/>
                                 <SkillBar name="SEO" percent="85"/>
-                                <SkillBar name="Wordpress" percent="80"/>
-                                <SkillBar name="Linux" percent="60"/>                               
+                                <SkillBar name="Wordpress" percent="80"/>                             
                             </div>
                             <h3 className="fs-4 fw-lighter">Weitere Skills und Frameworks</h3>
                             <div className="col-3 d-flex flex-column  justify-content-center my-3 skillIcon">
