@@ -1,7 +1,7 @@
 import SkillBar from "../components/SkillBar"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faNodeJs, faReact,faLaravel, faBootstrap } from '@fortawesome/free-brands-svg-icons'
-import { faArrowDown } from '@fortawesome/free-solid-svg-icons' 
+import { faNodeJs, faReact,faLaravel, faBootstrap, faXing,faLinkedinIn,faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faArrowDown, faEnvelope } from '@fortawesome/free-solid-svg-icons' 
 export default function About(){
     return(
         <div className="homeSection" id="about">
@@ -12,12 +12,12 @@ export default function About(){
                 <div className="col-12 col-sm-5 order-1 order-md-0 my-3">
                         <div className='codeArea'> 
                             <p>
-                                🚀 Herzlich willkommen auf meinem Portfolio! Ich bin Florian Thönelt, ein leidenschaftlicher Webentwickler mit einem Auge für Ästhetik und einem starken technischen Hintergrund. 
-                                Mit meiner Erfahrung und Kreativität gestalte ich digitale Lösungen, die nicht nur funktional sind, sondern auch ein beeindruckendes Benutzererlebnis bieten.
+                                🚀 Willkommen auf meinem Portfolio! Ich bin Florian Thönelt, ein erfahrener Full-Stack Webentwickler mit einem ausgeprägten technischen Hintergrund und einem Auge für Ästhetik. 
+                                Ich gestalte digitale Lösungen, die nicht nur funktional sind, sondern auch ein beeindruckendes Benutzererlebnis bieten. Meine umfangreiche Erfahrung und Kreativität fließen dabei ein.
                             </p>
                             <p>
-                                💻 Meine Expertise umfasst Frontend- und Backend-Entwicklung, wobei ich modernste Technologien wie HTML5, CSS3, JavaScript und Frameworks wie React und Node.js einsetze. 
-                                Durch meine Liebe zum Detail und meinem Streben nach Perfektion strebe ich danach, nicht nur Code zu schreiben, sondern echte Erlebnisse zu schaffen.
+                                💻 Ich verfüge über umfangreiche Erfahrung in der Entwicklung von Frontend- und Backend-Anwendungen mit modernen Technologien wie HTML5, CSS3, JavaScript sowie Frameworks wie React und Node.js. 
+                                Darüber hinaus habe ich Erfahrung in Skriptsprachen wie ColdFusion und PHP sowie in Content-Management-Systemen wie Wordpress und Joomla.
                             </p>
                             <p>
                                 🎨 In meinen Projekten lege ich großen Wert auf responsives Design, um sicherzustellen, dass die Webseiten auf allen Geräten optimal funktionieren. 
@@ -27,6 +27,29 @@ export default function About(){
                                 🤝 Ich bin immer offen für neue Herausforderungen und freue mich darauf, innovative Ideen in die Realität umzusetzen. 
                                 Stöbere durch meine Projekte und entdecke, wie ich mit meinem technischen Know-how und meiner kreativen Herangehensweise dazu beitrage, digitale Visionen zu verwirklichen.
                             </p>
+                        </div>
+                        <div className='codeArea mt-2'> 
+                            <div className="row">
+                                <div className="col-12">
+                                    <h3 className="fw-lighter fs-4">Kontakt</h3>
+                                </div> 
+                                <a href="mailto:kontakt@florianthoenelt.de" className="col-3 d-flex flex-column  justify-content-center my-3 skillIcon contactLink">
+                                    <FontAwesomeIcon icon={faEnvelope} />
+                                    <label className="fs-6 w-lighter text-center w-100">Mail</label>
+                                </a>
+                                <a href="https://github.com/pelidigatto" target="_blank" className="col-3 d-flex flex-column  justify-content-center my-3 skillIcon contactLink">
+                                    <FontAwesomeIcon icon={faGithub} />
+                                    <label className="fs-6 w-lighter text-center w-100">GitHub</label>
+                                </a>
+                                <a href="https://www.xing.com/profile/Florian_Thoenelt" target="_blank" className="col-3 d-flex flex-column  justify-content-center my-3 skillIcon contactLink">
+                                    <FontAwesomeIcon icon={faXing} />
+                                    <label className="fs-6 w-lighter text-center w-100">Xing</label>
+                                </a>
+                                <a href="https://www.linkedin.com/in/florian-thönelt-9834a896" target="_blank" className="col-3 d-flex flex-column  justify-content-center my-3 skillIcon contactLink">
+                                    <FontAwesomeIcon icon={faLinkedinIn} />
+                                    <label className="fs-6 w-lighter text-center w-100">LinkedIn</label>
+                                </a>
+                            </div>
                         </div>
                 </div>
                 <div className="col-12 col-sm-7 order-0 order-md-1  my-3">
