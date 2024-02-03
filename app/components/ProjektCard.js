@@ -10,6 +10,7 @@ const ProjektCard = (props) => {
     var projectScreenshot = props.screenshot;
     var projectToolsList = props.tools.split(',');
     var projectLink = props.link;
+    var projectDescription = props.description;
     return(
         <div className="codeArea">
             <div className="row">
@@ -29,6 +30,11 @@ const ProjektCard = (props) => {
                             <span className="badge bg-secondary mx-2">{project}</span>
                         )
                     }
+                </div>
+                <div className='d-flex justify-content-center '>
+                    <div className="col-10 d-flex justify-content-center my-3 border-bottom projectCardDescription text-center p-3">
+                        {projectDescription}
+                    </div>
                 </div>
                 <div className="col-12 d-flex justify-content-end">
                     <a href={projectLink} target="_blank"><FontAwesomeIcon icon={faLink} /></a>

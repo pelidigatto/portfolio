@@ -3,14 +3,9 @@ import { TypeAnimation } from 'react-type-animation'
 import Pic from './components/pic'
 import About from './about/page';
 import Projekte from './projekte/page';
-
-
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
-
 import 'animate.css';
-
 
 export default function Home() {
     
@@ -19,7 +14,7 @@ export default function Home() {
                 <div className='homeSection' id="home">
                     <div className='row w-100 mt-5'>
                         <div className='p-0 col-12 text-center'>
-                            <h1 className='fw-light mt-5'>Moin, ich bin Florian 👋!</h1>
+                            <h1 className='fw-light mt-5'>Moin, ich bin Florian 👋! Ein <span className='HeaderHiglight'>Full-Stack Webentwickler</span> <br /> aus Hannover</h1>
                         </div>
                         <div className='p-0 col-12 col-lg-4 d-flex justify-content-center align-items-center my-4'>
                             <Pic width={1000} height={1000} />
@@ -40,7 +35,6 @@ export default function Home() {
                                         />
                                     </div>
                                 </div>
-                             
                             </div>
                         </div>
                     </div>                    

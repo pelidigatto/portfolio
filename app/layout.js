@@ -30,6 +30,7 @@ config.autoAddCss = false; /* eslint-disable import/first */
   return (
     <html lang="de">
       <title>Florian Thönelt</title>
+      <link rel="icon" href="/favicon.ico" sizes="any" />
       <body>
           <Providers>
             <Navbar/>
