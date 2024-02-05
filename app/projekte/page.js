@@ -25,7 +25,11 @@ export default function Projekte(){
                         link="https://www.vicesix.de/"
                         description="Vicesix.de ist ein Wordpress-Blog über meine Lieblingsspielereihe Grand Theft Auto, mit Fokus auf das neueste Spiel GTA 6. Das Projekt dient nicht nur dazu, Erfahrungen in Wordpress und Content-Management-Systemen im Allgemeinen zu sammeln, sondern auch um meine Leidenschaft für dieses Spiel mit anderen zu teilen."
                     />
+<<<<<<< HEAD
                 </div> */}
+=======
+                </div>
+>>>>>>> a6995aaf77389c4117a0b9ca4f90e877fae578d8
                 <div className="col-12 col-sm-6 my-3">
                     <ProjektCard 
                         name="thoenelt.dev"
