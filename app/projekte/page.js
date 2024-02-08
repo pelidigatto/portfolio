@@ -1,4 +1,4 @@
-import ProjektCard from "../components/ProjektCard"
+/* import ProjektCard from "../components/ProjektCard" */
 
 export default function Projekte(){
     return(
@@ -9,13 +9,13 @@ export default function Projekte(){
                     
                 </div>
                 <div className="col-12 col-sm-6 my-3">
-                    <ProjektCard 
+                   {/*  <ProjektCard 
                         name="go4launch.de"
                         screenshot="/screenshot_go4lauch.png"
                         tools="JavaScript,PHP,Bootstrap,API"
                         link="https://www.go4launch.de/"
                         description="Go4Launch.de ist eine umfassende Datenbank zum Thema Raumfahrt. Sie listet alle Raketenstarts der Vergangenheit und Zukunft auf und bietet Informationen zu Raumfahrtunternehmen, Weltraumbahnhöfen und verschiedenen Raketentypen. Das Projekt wird ständig weiterentwickelt."
-                    />
+                    /> */}
                 </div>
                {/*  <div className="col-12 col-sm-6 my-3">
                     <ProjektCard 
@@ -27,13 +27,13 @@ export default function Projekte(){
                     />
                 </div> */}
                 <div className="col-12 col-sm-6 my-3">
-                    <ProjektCard 
+                   {/*  <ProjektCard 
                         name="thoenelt.dev"
                         screenshot="/screenshot_thoenelt_dev.png"
                         tools="JavaScript, Next.Js, Bootstrap"
                         link="https://www.thoenelt.dev/"
                         description="Mein Portfolio welche zum einen dazu erstellt habe mich kurz vorzustellen, aber auch erste Erfahrungen in Next.Js zu sammeln."
-                    />
+                    /> */}
                 </div>
             </div>
         </div>
