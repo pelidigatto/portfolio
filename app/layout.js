@@ -29,8 +29,11 @@ config.autoAddCss = false; /* eslint-disable import/first */
   }, []);
   return (
     <html lang="de">
-      <title>Florian Thönelt</title>
-      <link rel="icon" href="/favicon.ico" sizes="any" />
+      <head>
+        <title>Florian Thönelt</title>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <meta name="google-site-verification" content="PHm4IewC9ZmRYNOZMFg3JRODRRivkdmW3mBwiN4a7FM" />
+      </head>
       <body>
           <Providers>
             <Navbar/>
