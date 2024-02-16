@@ -7,7 +7,7 @@ import Providers from './providers'
 import Navbar from './components/navbar'
 import Footer from './components/footer'
 import { useEffect } from 'react';
-import CookieConsent from "react-cookie-consent";
+
 
  
 
@@ -27,13 +27,18 @@ config.autoAddCss = false; /* eslint-disable import/first */
   useEffect(() => {
     import("bootstrap/dist/js/bootstrap");
   }, []);
+
+
+ 
   return (
     <html lang="de">
       <head>
         <title>Florian Thönelt</title>
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <meta name="google-site-verification" content="PHm4IewC9ZmRYNOZMFg3JRODRRivkdmW3mBwiN4a7FM" />
-        <script type="text/javascript" charset="UTF-8" src="//cdn.cookie-script.com/s/102ae36c00073d80e7b5b6dd4575b25b.js"></script>
+        <script type="text/javascript" src="//cdn.cookie-script.com/s/102ae36c00073d80e7b5b6dd4575b25b.js"></script>
+
+
       </head>
       <body>
           <Providers>
