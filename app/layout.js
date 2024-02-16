@@ -33,6 +33,7 @@ config.autoAddCss = false; /* eslint-disable import/first */
         <title>Florian Thönelt</title>
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <meta name="google-site-verification" content="PHm4IewC9ZmRYNOZMFg3JRODRRivkdmW3mBwiN4a7FM" />
+        <script type="text/javascript" charset="UTF-8" src="//cdn.cookie-script.com/s/102ae36c00073d80e7b5b6dd4575b25b.js"></script>
       </head>
       <body>
           <Providers>
@@ -42,7 +43,7 @@ config.autoAddCss = false; /* eslint-disable import/first */
               <Footer />  
             </div>      
           </Providers>
-          <CookieConsent
+          {/* <CookieConsent
              location="center"
              buttonText="Akzeptieren"
              cookieName="cookieConsent"
@@ -50,7 +51,7 @@ config.autoAddCss = false; /* eslint-disable import/first */
              buttonStyle={{ color: "var(--text-color)", backgroundColor:"#4bb74a" ,fontSize: "18px" }}
              expires={150}
              overlay={true}
-             >Diese Webseite verwendet Cookies und verarbeitet Daten, um die Benutzererfahrung zu verbessern. Durch die Nutzung unserer Webseite stimmen Sie der Verwendung aller Cookies gemäß unserer Cookie-Richtlinie zu.</CookieConsent>
+             >Diese Webseite verwendet Cookies und verarbeitet Daten, um die Benutzererfahrung zu verbessern. Durch die Nutzung unserer Webseite stimmen Sie der Verwendung aller Cookies gemäß unserer Cookie-Richtlinie zu.</CookieConsent> */}
 
       </body>
     </html>
