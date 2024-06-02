@@ -83,6 +83,7 @@ body{
     padding: 1rem;
     position: relative;
     text-align: left;
+    min-height: 550px;
 }
 
 .dotArea{
@@ -191,4 +192,9 @@ body{
     
 }
 
-
+.contentArea{
+    margin-top: 5rem;
+}
+.aboutMe{
+    min-height: unset;
+}

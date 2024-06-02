@@ -27,8 +27,7 @@ export default function About(){
                                 🤝 Ich bin immer offen für neue Herausforderungen und freue mich darauf, innovative Ideen in die Realität umzusetzen. 
                                 Stöbere durch meine Projekte und entdecke, wie ich mit meinem technischen Know-how und meiner kreativen Herangehensweise dazu beitrage, digitale Visionen zu verwirklichen.
                             </p>
-                        </div>
-                        <div className='codeArea mt-2'> 
+                      
                             <div className="row">
                                 <div className="col-12">
                                     <h3 className="fw-lighter fs-4">Kontakt</h3>

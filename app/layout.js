@@ -43,7 +43,7 @@ config.autoAddCss = false; /* eslint-disable import/first */
       <body>
           <Providers>
             <Navbar/>
-            <div className='container p-0 w-100'>
+            <div className='container p-0 w-100 contentArea'>
               {children}
               <Footer />  
             </div>      
