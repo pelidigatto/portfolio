@@ -14,7 +14,7 @@ export default function Home() {
                 <div className='homeSection' id="home">
                     <div className='row w-100 mt-5'>
                         <div className='p-0 col-12 text-center'>
-                            <h1 className='fw-light mt-5'>Moin, ich bin Florian 👋!<span className='HeaderHiglight'>Webentwickler</span> <br /> aus Hannover</h1>
+                            <h1 className='fw-light mt-5'>Moin, ich bin Florian 👋 <span className='HeaderHiglight'>Webentwickler</span> <br /> aus Hannover</h1>
                         </div>
                         <div className='p-0 col-12 col-lg-4 d-flex justify-content-center align-items-center my-4'>
                             <Pic width={1000} height={1000} />
