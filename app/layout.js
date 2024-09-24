@@ -37,7 +37,7 @@ config.autoAddCss = false; /* eslint-disable import/first */
         <title>Florian Thönelt</title>
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <meta name="google-site-verification" content="PHm4IewC9ZmRYNOZMFg3JRODRRivkdmW3mBwiN4a7FM" />
-        {/* <script type="text/javascript" src="//cdn.cookie-script.com/s/102ae36c00073d80e7b5b6dd4575b25b.js"></script> */}
+        <script type="text/javascript" src="//cdn.cookie-script.com/s/102ae36c00073d80e7b5b6dd4575b25b.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         <meta name="description" content="Florian Thönelt - Webentwickler aus Hannover" />
