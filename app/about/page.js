@@ -32,7 +32,7 @@ export default function About(){
                                 <div className="col-12">
                                     <h3 className="fw-lighter fs-4">Kontakt</h3>
                                 </div> 
-                                <a href="mailto:kontakt@florianthoenelt.de" className="col-3 d-flex flex-column  justify-content-center my-3 skillIcon contactLink">
+                                <a href="mailto:florian@thoenelt.dev" className="col-3 d-flex flex-column  justify-content-center my-3 skillIcon contactLink">
                                     <FontAwesomeIcon icon={faEnvelope} />
                                     <label className="fs-6 w-lighter text-center w-100">Mail</label>
                                 </a>
